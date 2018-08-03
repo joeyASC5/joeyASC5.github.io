@@ -1,0 +1,120 @@
+html{
+    background-color: white
+    display: flex;
+    
+ }
+ 
+ @media(max-width: 1030px){
+    .game{
+        flex-direction:column;
+        align-items: center;
+    }
+ }
+ 
+ 
+ .main-container {
+    display: flex;
+ }
+ 
+ .logo {
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    border: solid 3px black;
+    margin: auto;
+    background-color: white;    
+    padding-right: 40px;
+    padding-left: 20px;
+ }
+ 
+ 
+ 
+ 
+ li {
+    float: left;
+ }
+ 
+ li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    flex-direction: row;
+ }
+ 
+ li a:hover {
+    background-color: white;
+    color: black;
+ }
+ 
+ h1{
+ 
+ text-transform: uppercase;
+ font-size: 23px;
+ color:red;
+ border: solid 10px violet;
+ margin: auto; 
+ width: 100%;
+ background-color:black;
+ text-align: left;
+ float: left
+ 
+ }
+ 
+ h2{
+ 
+ font-size: 50px;
+ color: black;
+ border: double 5px gold;
+ 
+ width: 30%;
+ background-color: white;
+ text-align: center;
+ float: left;
+ 
+ }
+ 
+ #f{
+    text-align: center;
+    color:rgb(66, 18, 29);
+    border: double 5px gold;
+    font-size: 35px;
+ 
+    background-color: white;
+ }
+    /* content */
+ .pop_content {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+ }
+ #u{
+    width: 950px;
+    float: right;
+ }
+ 
+ #s{
+    height: 200px;
+    width: 25%
+ }
+ .game{
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+  
+ 
+ }
+ #w{
+    font-size: 20px;
+    text-align: center
+ }
+ 
+ .videocanvas {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+ }
